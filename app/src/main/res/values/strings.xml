@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExpenseTracker</string>
+
+    <string-array name="type_array">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Salary</item>
+    </string-array>
+</resources>

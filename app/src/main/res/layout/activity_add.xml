@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F5F6FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Add Transaction"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Amount -->
+        <EditText
+            android:id="@+id/amount"
+            android:hint="Amount"
+            android:background="@drawable/card_bg"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Category -->
+        <Spinner
+            android:id="@+id/category"
+            android:background="@drawable/card_bg"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Type -->
+        <Spinner
+            android:id="@+id/type"
+            android:background="@drawable/card_bg"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Note -->
+        <EditText
+            android:id="@+id/note"
+            android:hint="Note"
+            android:background="@drawable/card_bg"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/date"
+            android:hint="Date"
+            android:background="@drawable/card_bg"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/saveBtn"
+            android:text="Add"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
